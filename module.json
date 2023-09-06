@@ -1,7 +1,7 @@
 {
-  "id": "csb-white-wolf-health-component",
-  "title": "CSB White Wolf Health Component",
-  "version": "1.0.1",
+  "id": "csb-exalted2e-module",
+  "title": "CSB Exalted 2e Module",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "10",
     "verified": "11"
@@ -22,10 +22,10 @@
     }
   ],
   "styles": [
-	  "css/csb-white-wolf-health-component.css"
+	  "css/csb-exalted2e-module.css"
   ],
   "esmodules": [
-	  "js/csb-white-wolf-health-component.js",
+	  "js/csb-exalted2e-module.js",
 	  "js/WWHealthCounter.js"
   ]
 }
