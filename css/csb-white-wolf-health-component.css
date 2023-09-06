@@ -1,0 +1,25 @@
+.custom-system-wwhealthcounter > input {
+	border: solid 1px black;
+	width: 20px;
+	height: 20px;
+}
+
+.custom-system-wwhealthcounter > input[data-state="."] {
+	background-color: #333;
+}
+
+.custom-system-wwhealthcounter > input[data-state="/"] {
+	background: linear-gradient(135deg, transparent 0%, transparent 43%, black 45%, black 55%, transparent 57%, transparent 100%);
+}
+
+.custom-system-wwhealthcounter > input[data-state="x"] {
+	background: linear-gradient(45deg, transparent 0%, transparent 43%, black 45%, black 55%, transparent 57%, transparent 100%),
+				linear-gradient(135deg, transparent 0%, transparent 43%, black 45%, black 55%, transparent 57%,transparent 100%);
+}
+		
+.custom-system-wwhealthcounter > input[data-state="*"] {
+	background: linear-gradient(45deg, transparent 0%, transparent 43%, black 45%, black 55%, transparent 57%, transparent 100%),
+				linear-gradient(90deg, transparent 0%, transparent 43%, black 45%, black 55%, transparent 57%, transparent 100%),
+				linear-gradient(180deg, transparent 0%, transparent 43%, black 45%, black 55%, transparent 57%, transparent 100%),
+				linear-gradient(135deg, transparent 0%, transparent 43%, black 45%, black 55%, transparent 57%, transparent 100%);
+}

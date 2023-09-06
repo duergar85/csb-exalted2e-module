@@ -1,0 +1,18 @@
+<div class="custom-system-form-field">
+    <label for="wwhealthcounterLabel">Label (optional)</label>
+    <input id="wwhealthcounterLabel" type="text" data-key="label" value="{{label}}" />
+</div>
+
+<div class="custom-system-form-field">
+    <label for="wwhealthcounterSize">Size</label>
+    <select id="wwhealthcounterSize" data-key="size">
+        {{#select size}}
+        <option value="x-small">Tiny</option>
+        {{/select}}
+    </select>
+</div>
+
+<div class="custom-system-form-field">
+    <label for="wwhealthcounterDefaultDisabled">Disabled by default</label>
+    <input id="wwhealthcounterDefaultDisabled" type="checkbox" data-key="defaultDisabled" {{checked defaultDisabled}} />
+</div>

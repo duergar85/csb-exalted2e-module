@@ -1,0 +1,31 @@
+{
+  "id": "csb-white-wolf-health-component",
+  "title": "CSB White Wolf Health Component",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "custom-system-builder",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Duergar85",
+      "flags": {}
+    }
+  ],
+  "styles": [
+	  "css/csb-white-wolf-health-component.css"
+  ],
+  "esmodules": [
+	  "js/csb-white-wolf-health-component.js",
+	  "js/WWHealthCounter.js"
+  ]
+}
