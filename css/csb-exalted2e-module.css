@@ -1,3 +1,101 @@
+/* CSB Exalted 2e Sheet */
+/* ----------------BEGIN---------------- */
+h5, h6 {
+	margin: 0;
+}
+
+.ex2topmargin20 {
+	margin-top: 20px !important;
+}
+
+.ex2topmargin50 {
+	margin-top: 50px !important;
+}
+
+.ex2gridnomargin, .ex2gridnomargin > table, .ex2gridnomargin p, .ex2gridnomargin > nav {
+    margin: 0;
+	column-gap: 0;
+}
+
+.ex2gridnoborder > table {
+	border: 0;
+	background-color: transparent;
+}
+
+.ex2shortlabel > div:first-child {
+	flex-grow: 0.35 !important;
+}
+
+.ex2scrollabletab.custom-system-panel {
+	max-height: 320px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.ex2scrollableheader.custom-system-panel {
+	max-height: 150px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.ex2inventory {
+	row-gap: 0;
+}
+
+.ex2inventory > div:nth-child(2n) {
+	margin-left:5px;
+}
+
+.ex2inventory > div:nth-child(2n+1) {
+	margin-right:5px;
+}
+
+.ex2header {
+	max-height: 150px;
+}
+
+.ex2abilitytable > table > tbody > tr > td {
+	padding: 0;
+}
+
+.ex2abilitytable > table > tbody > tr > td:nth-child(1) {
+	width: 15%;
+}
+
+.ex2abilitytable > table > tbody > tr > td:nth-child(2) {
+	width: 55%;
+}
+
+.ex2abilitytable > table > tbody > tr > td:nth-child(3) {
+	width: 30%;
+}
+
+/* To avoid setting the style to the editor */
+.custom-system-editable-panel.ex2scrollabletab.custom-system-component-root > .ex2scrollabletab,
+.custom-system-editable-panel.ex2header.custom-system-component-root > .ex2header,
+.custom-system-editable-panel.ex2header.custom-system-component-root {
+	max-height: 1000px;
+}
+
+/* Sheet configuration */
+.custom-system-customHeader {
+	position: absolute;
+	left: 0;
+	top: 160px;
+}
+
+.custom-system-field-x-small {
+	width: 2em !important;
+}
+
+.sheet header.sheet-header {
+	align-items: flex-start !important;
+}
+/* Sheet configuration */
+/* -----------------END----------------- */
+
+/* CSB Exalted 2e Health Counter */
+/* ----------------BEGIN---------------- */
 .custom-system-wwhealthcounter > input {
 	border: solid 1px black;
 	width: 20px;
@@ -23,3 +121,5 @@
 				linear-gradient(180deg, transparent 0%, transparent 43%, black 45%, black 55%, transparent 57%, transparent 100%),
 				linear-gradient(135deg, transparent 0%, transparent 43%, black 45%, black 55%, transparent 57%, transparent 100%);
 }
+/* -----------------END----------------- */
+

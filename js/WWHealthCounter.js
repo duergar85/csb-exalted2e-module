@@ -166,7 +166,7 @@ class WWHealthCounter extends InputComponent {
 
         mainElt.append(
             await renderTemplate(
-                `modules/csb-white-wolf-health-component/html/wwhealthcounter.html`,
+                `modules/csb-exalted2e-module/html/wwhealthcounter.html`,
                 existingComponent
             )
         );

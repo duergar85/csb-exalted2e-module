@@ -1,9 +1,9 @@
 {
   "id": "csb-exalted2e-module",
   "title": "CSB Exalted 2e Module",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compatibility": {
-    "minimum": "10",
+    "minimum": "11",
     "verified": "11"
   },
   "relationships": {
@@ -27,5 +27,12 @@
   "esmodules": [
 	  "js/csb-exalted2e-module.js",
 	  "js/WWHealthCounter.js"
-  ]
+  ],
+  "packs": [{
+    "name": "macros",
+    "label": "Macros",
+    "system": "custom-system-builder",
+    "type": "Macro",
+    "path": "packs/macros"
+  }]
 }
